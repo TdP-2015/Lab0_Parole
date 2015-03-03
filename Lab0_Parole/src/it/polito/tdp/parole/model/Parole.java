@@ -19,7 +19,11 @@ public class Parole {
 	}
 	
 	public List<String> getElenco() {
-		return elenco ;
+		return this.elenco ;
+	}
+	
+	public void reset() {
+		this.elenco.clear() ;
 	}
 
 }

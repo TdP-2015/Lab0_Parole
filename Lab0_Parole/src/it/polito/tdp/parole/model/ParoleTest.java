@@ -23,6 +23,15 @@ public class ParoleTest {
 		p.addParola("pallino") ;
 		
 		stampa(p) ;
+		
+		p.reset() ;
+		
+		stampa(p) ;
+		
+		p.addParola("pinco") ;
+		p.addParola("pallino") ;
+
+		stampa(p) ;
 
 	}
 	
